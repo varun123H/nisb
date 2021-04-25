@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiro</title>
+    
+
+    <style>
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+    .holder{
+        position: relative;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 55%;
+    }
+    .holder >iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+</style>
+</head>
+<body style="background-color: black;">
+    <h1 style="color: whitesmoke; text-align:center;  "  >Welcome to WIE </h1>
+
+    <a href="../index.html" class="button">Back to home</a>
+
+    <hr>
+    <br>
+    <div class="container">
+        <div class="holder">
+            <iframe width="691" height="380" src="https://www.youtube.com/embed/YUBB638sQk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+   </div>
+   <script > 
+        var password;
+        var pass1= "nisb";
+        password=prompt('Enter password..');
+        if (password==pass1)
+        alert('Matched! click OK to continue.');
+        else{
+        window.location="https://maths-5th.herokuapp.com"
+        }
+   </script>
+</body>
+</html>
+
+
